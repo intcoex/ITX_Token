@@ -67,7 +67,7 @@ app.get('/', function (req, res) {
 
         default:
             res.contentType('application/json');
-            res.end(JSON.stringify("ITX node is ready..."));
+            res.end(JSON.stringify("ITX test-node is ready..."));
     }
 });
 ///------ERC20_Start
